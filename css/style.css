@@ -1,0 +1,170 @@
+*{
+    font-family: Roboto Slab;
+    color: #2D2F31;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none; 
+    color: currentColor;
+}
+a:hover{
+    color: currentColor;
+}
+ul{
+    list-style-type: none;
+}
+
+h2{
+    letter-spacing: 0.2em;
+    font-size: 2rem;
+    text-align: center;
+    margin: 32px 0px 40px 0;
+}
+
+.yellowSpan{
+    color: #F9B234;
+}
+.redSpan{
+    color: #CF0724;
+}
+
+/* banner principal */
+.bannerContenedor{
+    height: 350px;
+    width: 100%;
+    background-image: url(../media/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: inline-block;
+}
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 150px;
+    height: 150px;
+}
+.bannerTxt{
+    color: #EFEFEF;
+    position: absolute;
+    left: 20px;
+}
+.titulo{
+    top: 140px;
+}
+.slogan{
+    top: 190px; 
+}
+
+/* nosotros */
+#nosotros{ 
+    text-align: center;
+    margin: 24px 0;
+}
+.flexPadre{ 
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+}
+.items{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    position: relative;
+}
+.redBox{
+    background-color: #CF0724;
+    width: 250px;
+    height: 220px;
+    position: absolute;
+}
+.first{
+    top: -14px;
+    left: 85px;
+}
+.second{
+    top: 40px;
+    left: 82px;
+}
+.items img{
+    height: 250px;
+    width: 250px;
+    z-index: 20;
+}
+
+/* donaciones */
+.bannerDonar{
+    background-color: #2D2F31;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.bannerDonar div{
+    width: 30%;
+    padding: 16px;
+}
+.left img{
+    width: 300px;
+    height: 400px;
+    z-index: 10;
+    position: relative;
+}
+.left{
+    position: relative;
+    display: inline-block;
+}
+.right{ 
+    padding: 30px;
+}
+.whiteBox{
+    background-color:#EFEFEF;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 80px;
+    left: 220px;
+    z-index: 0;
+}
+.bannerDonar p, .bannerDonar h3{
+   color: #EFEFEF;
+}
+.counterConteiner{
+    background-color: #CF0724;
+    color: #EFEFEF;
+    margin-top: 50px;
+    width: 50%;
+}
+
+/* producto */
+#producto{
+    margin: 40px 0;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+}
+.botonReserva{
+    background-color: #F9B234;
+    border: none;
+    color: #2D2F31;
+    padding: 8px;
+}
+.carousel{
+    width: 300px;
+    height: 300px;
+}
+
+/* footer */
+footer{
+    background-color: #CF0724;
+    margin-bottom: -0px;
+    text-align: center;
+}
+footer a{
+    color: white;
+}
+
